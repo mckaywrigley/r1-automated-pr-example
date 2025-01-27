@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "r1-automated-pr-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "author": "Mckay Wrigley",
+  "license": "MIT",
+  "dependencies": {
+    "@ai-sdk/groq": "^1.1.6",
+    "@octokit/rest": "^21.1.0",
+    "@types/xml2js": "^0.4.14",
+    "ai": "^4.1.9",
+    "xml2js": "^0.6.2",
+    "dotenv": "^16.4.7",
+    "openai": "^4.80.1",
+    "tsx": "^4.19.2"
+  }
+}
